@@ -69,6 +69,9 @@
         .active {  
             background-color: #717171;  
         }  
+        .weather {  
+            color: white;  
+        }  
 
         .navbar {
       margin-bottom: 0;
@@ -89,8 +92,6 @@
     </style>  
 
 <body onload="getLocation()"></body>
-<p id="demo"></p>
-<p id="temp"></p>
 
 </head>  
 <body>  
@@ -113,8 +114,10 @@
           <li><a href="/sports">Sports</a></li>
           <li><a href="/aboutus">About</a></li>
           <li><a href="/contactus">Contact</a></li>
+          <div class = "weather"><li><p id="demo"></p></li></div>
         </ul>
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://localhost:9002/index.html">Chat</a></li>
           <li><a href="/user/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
       </div>
@@ -198,7 +201,7 @@
   
 
   <footer class="container-fluid text-center">
-    <a href="http://localhost:9002/index.html">Chat</a>
+    <a href="http://localhost:9001/aboutus">Developed by team HISSS</a>
   </footer>
  
 
